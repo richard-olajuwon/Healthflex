@@ -25,7 +25,8 @@ export default function Homepage(){
         return welcomeMessage;
     }
 
-    useEffect(() => {document.title = `${businessName}`; typeWelcomeMessage()}, [])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    useEffect(() => {document.title = `${businessName}`; typeWelcomeMessage()}, []);
     
 
     const anchorTag = {
