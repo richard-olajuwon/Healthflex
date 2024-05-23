@@ -1,0 +1,211 @@
+.homepage{
+    width: 100%;
+}
+
+.first-section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.first-section-video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.first-section-content{
+    width: 90%;
+    position: absolute;
+    top: 35%;
+    align-self: center;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/*================Tips================*/
+
+.tips-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.tips-section-inner{
+    width: 95%;
+}
+
+.tips-section-content{
+    width: 100%;
+    background: rgba(143, 137, 137, 0.2);
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.tips-section-content > div{
+    margin-top: 20px;
+}
+
+/*================Schedule A Consultation================*/
+
+.consultation-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.consultation-section-inner{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.consultation-images{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.consultation-images > img{
+    width: 100%;
+    height: 100%;
+}
+
+.consultation-section-inner > h1{
+    margin: 10px 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.consultation-section-inner > h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.consultation-section-inner > h3{
+    text-align: center;
+}
+
+.consultation-section-inner > a{
+    background-color: grey;
+    font-size: 1.1rem;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/*========================About Section================================*/
+
+.about-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.about-section-inner{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-section-inner > img{
+    width: 300px;
+    height: 300px;
+}
+
+.about-section-inner > h1{
+    margin: 10px 0;
+    font-size: 2rem;
+}
+
+.about-section-inner > h3{
+    text-align: center;
+}
+
+.about-section-inner > a{
+    background-color: grey;
+    font-size: 1.1rem;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/*===============Health News===============*/
+
+.health-news-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.health-news-section-inner{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.health-news-section-inner > img{
+    width: 300px;
+    height: 300px;
+}
+
+.health-news-section-inner > h1{
+    margin: 10px 0;
+    font-size: 2rem;
+}
+
+.health-news-section-inner > h3{
+    text-align: center;
+}
+
+.health-news-section-inner > a{
+    background-color: grey;
+    font-size: 1.1rem;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/*==========Media Queries===========*/
+
+@media(min-width: 850px){
+    .tips-section-inner,
+    .consultation-section-inner,
+    .about-section-inner,
+    .health-news-section-inner{
+        width: 80%;
+    }
+}
+
+/*====================================*/
+
+@media(min-width: 1200px){
+    .tips-section-inner,
+    .consultation-section-inner,
+    .about-section-inner,
+    .health-news-section-inner{
+        width: 70%;
+    }
+
+    .about-section-inner > img,
+    .health-news-section-inner > img{
+        width: 500px;
+        height: 400px;
+    }
+}

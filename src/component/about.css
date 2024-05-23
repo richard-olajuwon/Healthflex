@@ -1,0 +1,321 @@
+.about{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-inner{
+    width: 90%;
+}
+
+/*===========About Us=============*/
+
+.about-us-section{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    background-image: url('https://healthflex-files.s3.eu-north-1.amazonaws.com/about-us.png');
+}
+
+.about-us-section-inner{
+    background: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+/*==============Description and Slogan====================*/
+
+.description-and-slogan{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.description-and-slogan-inner{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(143, 137, 137, 0.3);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.description-and-slogan-inner > h1{
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.description-and-slogan-inner :nth-child(2){
+    margin-bottom: 20px;
+}
+
+.description-and-slogan-inner > h2{
+    margin-bottom: 20px;
+}
+
+/*==============Brief Intro================*/
+
+.brief-intro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.brief-intro-inner{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background: rgba(143, 137, 137, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.brief-intro-inner > h1{
+    text-align: center;
+}
+
+.brief-intro-inner > span{
+    width: 100px;
+    height: 4px;
+    background-color: #949393;
+    border-radius: 10px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.brief-intro-inner :nth-child(3), 
+.brief-intro-inner :nth-child(4){
+    margin-bottom: 20px;
+}
+
+/*==============Our Vision==================*/
+
+.our-vision{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.our-vision-inner{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background: rgba(143, 137, 137, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.our-vision-inner > h1{
+    text-align: center;
+}
+
+.our-vision-inner > span{
+    width: 70px;
+    height: 4px;
+    background-color: #949393;
+    border-radius: 10px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+/*==================Our Goals================*/
+
+.our-goal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.our-goal-inner{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background: rgba(143, 137, 137, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.our-goal-inner > h1{
+    text-align: center;
+}
+
+.our-goal-inner > span{
+    width: 60px;
+    height: 4px;
+    background-color: #949393;
+    border-radius: 10px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+/*==================Our Values================*/
+
+.our-values{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.our-values-inner{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background: rgba(143, 137, 137, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.our-values-inner > h1{
+    text-align: center;
+}
+
+.our-values-inner > span{
+    width: 70px;
+    height: 4px;
+    background-color: #949393;
+    border-radius: 10px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+/*==================Our Brand================*/
+
+.our-brand{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+.our-brand > h1{
+    text-align: center;
+}
+
+.our-brand > span{
+    width: 70px;
+    height: 4px;
+    background-color: #949393;
+    border-radius: 10px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.our-brand-logo-container{
+    width: 200px;
+    height: 180px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.our-brand-logo-container > img{
+    width: 100%;
+    height: 100%;
+}
+
+/*===============Contact Us==============*/
+
+.contact-us{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.contact-us-inner{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(143, 137, 137, 0.3);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.contact-us-inner > div{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.icon-container{
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.icon-container > img{
+    width: 30px;
+    height: 30px;
+}
+
+/*===============Note==============*/
+
+.note{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.note-inner{
+    width: 90%;
+    background: rgba(143, 137, 137, 0.3);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+/*==========Media Queries================*/
+
+@media (min-width: 1200px){
+    .description-and-slogan-inner,
+    .brief-intro-inner,
+    .our-vision-inner,
+    .our-goal-inner,
+    .our-values-inner{
+        width: 80%;
+    }
+
+    .our-brand-logo-container{
+        width: 350px;
+        height: 300px;
+    }
+}
+
+/*=====================================*/
+
+@media (min-width: 1500px){
+    .description-and-slogan-inner,
+    .brief-intro-inner,
+    .our-vision-inner,
+    .our-goal-inner,
+    .our-values-inner{
+        width: 1200px;
+    }
+}

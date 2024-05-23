@@ -1,0 +1,30 @@
+.notfound{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.notfound-writeup{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.notfound-writeup-inner{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notfound-writeup-inner > img{
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.notfound-link{
+    text-decoration: none;
+}

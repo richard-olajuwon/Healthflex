@@ -1,0 +1,128 @@
+.header{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    position: fixed;
+    z-index: 1;
+}
+
+.mobile-header{
+    width: 95%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #000000;
+}
+
+.window-header{
+    display: none;
+}
+
+.theme-toggler-container{
+    position: absolute;
+    right: 70px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid #994d00;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.theme-toggler{
+    width: 30px;
+    height: 30px;
+}
+
+.logo-container,
+.logo{
+    width: 80px;
+    height: 60px;
+}
+
+.toggler-container,
+.dropdown-toggler{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+    padding-top: 50px;
+}
+
+.routes{
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+/*=========Media Queries==========*/
+@media (min-width: 930px){
+    .mobile-header{
+        display: none;
+    }
+    .dropdown-menu{
+        display: none;
+    }
+
+    .window-header{
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid #000000;
+    }
+
+    .window-header-link{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .theme-toggler-container{
+        position: relative;
+        right: 0;
+    }
+}
+
+/*===========================================*/
+
+@media (min-width: 1050px){
+
+    .window-header-link{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+/*===========================================*/
+
+@media (min-width: 1200px){
+
+    .window-header{
+        width: 80%;
+    }
+}
+
+/*===========================================*/
+
+@media (min-width: 1300px){
+
+    .window-header-link{
+        width: 800px;
+    }
+}
