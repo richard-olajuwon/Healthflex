@@ -10,22 +10,13 @@ export default function News(){
 
 
     async function fetchNews(){
-        // Get today's date
-        let today = new Date();
 
-        // Subtract one day
-        let yesterday = new Date(today);
-        yesterday.setDate(today.getDate() - 1);
-
-        let yesterdayToString = yesterday.toISOString().split('T')[0]
-
-        const newsApiUrl = `https://newsapi.org/v2/everything?q=health&searchIn=title&language=en&pageSize=20&sortBy=relevancy&from=${yesterdayToString}&apiKey=${process.env.REACT_APP_NEWS_API_KEY}`
-
-        await fetch(newsApiUrl,
+        await fetch(`https://wyk75vvmzy.us-east-1.awsapprunner.com/news?apiKey=${process.env.REACT_APP_NEWS_API_KEY}`,
         {})
         .then(response => response.json())
         .then(data => {
-            const news = data.articles.map((item, index) => {
+            console.log(data)
+            const news = data.map((item, index) => {
                 return(
                     <div className="health-news-inner" key={index}>
                         <h2>{item.title}</h2>
@@ -41,6 +32,7 @@ export default function News(){
             setNewsInfo(news)
         })
         .catch(err => {
+            console.error(err)
             setNewsLimitReached(<div className="health-news-inner">No news at the moment, check back tomorrow.</div>);
         })
     }
