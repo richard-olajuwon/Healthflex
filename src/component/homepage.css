@@ -55,6 +55,10 @@
     margin-top: 20px;
 }
 
+.illness-lists{
+    text-decoration: none;
+}
+
 /*================Schedule A Consultation================*/
 
 .consultation-section{

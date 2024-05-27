@@ -48,14 +48,18 @@ export default function Homepage(){
             <section className='tips-section'>
                 <div className='tips-section-inner'>
                     <div className='tips-section-content'>
-                        <h2>{businessName} is a world class provider of natural healthcare products.</h2>
+                        <h3>{businessName} is a world class provider of natural healthcare products.</h3>
                         <p></p>
-                        <h3>
+                        <h4>
                             At {businessName}, we pride ourselves on offering top-tier healthcare solutions derived 
                             from natural roots and herbs. Our products are expertly crafted to tackle a wide range 
-                            of health issues effectively including chronic diseases. With a focus on quality and authenticity, we're dedicated 
+                            of health issues. <br/>
+                            <Link className='illness-lists' to={'illness-list'}>
+                                Click here to discover more health issues addressed by our natural solutions. 
+                            </Link> <br/>
+                            With a focus on quality and authenticity, we're dedicated 
                             to providing holistic wellness solutions that improve lives naturally.
-                        </h3>
+                        </h4>
                     </div>
                 </div>
             </section>
