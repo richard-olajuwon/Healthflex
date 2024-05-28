@@ -20,7 +20,13 @@ export default function Header(){
     const dropdownDisplay = {
         visibility: dropdownOpen === false ? 'collapse' : 'visible',
         transform: dropdownOpen === false ? 'translateY(-60vh)' : 'translateY(0)',
-        transition: 'all 1s ease'
+        transition: 'all 1s ease',
+        background : theme === 'dark' ? '#000000' : '#ffffff',
+        color: theme === 'dark' ? '#ffffff' : '#000000',
+        width: '100%',
+        display: window.innerWidth < 930 ? 'flex' : 'none',
+        flexDirection: 'column',
+        alignItems: 'center'
     }
 
     const anchorTag = {
@@ -30,7 +36,8 @@ export default function Header(){
 
     const headerTheme = {
         background : theme === 'dark' ? '#000000' : '#ffffff',
-        color: theme === 'dark' ? '#ffffff' : '#000000'
+        color: theme === 'dark' ? '#ffffff' : '#000000',
+        height: dropdownOpen === false ? '60px' : 'auto'
     }
 
     return(

@@ -36,13 +36,14 @@ export default function Schedule(){
 
             <div className="schedule-types">
                 <div>
-                    Schedule a Consultation by phone call by clicking on the phone number below 
-                    <br/>
+                    <h4>Schedule a Consultation by phone call by clicking on the phone number below</h4> 
+                    
                     <Link to='tel:08126059170' style={anchorTag}>08126059170</Link>
                 </div>
 
-                <div>Schedule a Consultation by Whatsapp call by clicking on Whatsapp below
-                    <br/>
+                <div>
+                    <h4>Schedule a Consultation by Whatsapp call by clicking on Whatsapp below</h4>
+
                     <Link to="https://wa.me/2348126059170" style={anchorTag}>Whatsapp</Link>
                 </div>
 
