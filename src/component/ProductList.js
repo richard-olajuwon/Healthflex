@@ -2,12 +2,14 @@ import React from 'react';
 import './productlist.css';
 import Header from './Header';
 import Footer from './Footer';
+import ScrollToTop from './ScrollToTop'
 
 export default function ProductList(){
 
     return(
         <div className='product-list'>
             <Header/>
+            <ScrollToTop/>
             <div className='product-intro'> <h2> Some of our products and their health benefits </h2> </div>
 
             <section className='product-container'>

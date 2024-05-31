@@ -8,6 +8,7 @@ Healthflex Web App Requirement
 * Web Pages
 - Home page
 - Schedule a consultation page
+- Products page
 - About page
 - News page
 - Dropdown menu
@@ -17,6 +18,7 @@ Healthflex Web App Requirement
 
 - Home page should include all information and links to other webpages.
 - Schedule a consultant page should include consultation through Phone calls, WhatsApp calls.
+- Products page should include some of our products
 - About should include all information about the company.
 - News page content should change every day giving latest health news.
 - Dropdown menu should have links to all webpages.
