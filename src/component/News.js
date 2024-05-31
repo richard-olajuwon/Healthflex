@@ -15,7 +15,6 @@ export default function News(){
         {})
         .then(response => response.json())
         .then(data => {
-            console.log(data)
             const news = data.map((item, index) => {
                 return(
                     <div className="health-news-inner" key={index}>

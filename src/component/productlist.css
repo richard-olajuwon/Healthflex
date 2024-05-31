@@ -1,0 +1,71 @@
+.product-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-intro{
+    padding-top: 80px;
+    margin-bottom: 30px;
+}
+
+.product-intro > h2{
+    text-align: center;
+}
+
+.product-container{
+    width: 95%;
+    background: rgba(143, 137, 137, 0.4);
+    border-radius: 20px;
+    border: 1px solid #000000;
+    margin-bottom: 30px;
+}
+
+.imagexname{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.product-image{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.health-benefits-container{
+    width: 100%;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.health-benefits-container > ul > li{
+    margin-bottom: 10px;
+}
+
+/*=========Media Queries==========*/
+@media (min-width: 930px){
+    .product-container{
+        display: flex;
+    }
+
+    .health-benefits-container{
+        padding-top: 20px;
+    }
+
+    .health-benefits-container > h3{
+        text-align: left;
+    }
+}
+
+/*================================*/
+@media (min-width: 1500px){
+    .product-container{
+        width: 1200px;
+    }
+}

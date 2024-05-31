@@ -10,6 +10,7 @@ import Notfound from './component/Notfound';
 import PrivacyPolicy from './component/PrivacyPolicy';
 import TermsOfService from './component/TermsOfService';
 import IllnessList from './component/IllnessList';
+import ProductList from './component/ProductList';
 
 function App() {
     const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark')
@@ -36,6 +37,7 @@ function App() {
                         <Routes>
                             <Route exact path='/' Component={Homepage} />
                             <Route exact path='/consultation' Component={Schedule} />
+                            <Route exact path='/products' Component={ProductList} />
                             <Route exact path='/about' Component={About} />
                             <Route exact path='/about-us' Component={About} />
                             <Route exact path='/health-news' Component={News} />

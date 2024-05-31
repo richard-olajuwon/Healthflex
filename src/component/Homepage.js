@@ -40,7 +40,7 @@ export default function Homepage(){
             <ScrollToTop/>
             <section className='first-section'>
                 <video className='first-section-video' loop autoPlay muted>
-                    <source src='https://healthflex-files.s3.eu-north-1.amazonaws.com/Curing_Diabetes_with_Lettuce%5B1%5D.mp4' type='video/mp4'/>
+                    <source src='/videos/Curing_Diabetes_with_Lettuce.mp4' type='video/mp4'/>
                 </video>
                 <h1 className='first-section-content'>{welcomeMessage}</h1>
             </section>

@@ -51,6 +51,7 @@ export default function Header(){
             <div className='dropdown-menu' style={dropdownDisplay}>
                 <Link className='routes' to={'/'} style={anchorTag}>Home &rarr;</Link>
                 <Link className='routes' to={'/consultation'} style={anchorTag}>Schedule a Consultation &rarr;</Link>
+                <Link className='routes' to={'/products'} style={anchorTag}>Products &rarr;</Link>
                 <Link className='routes' to={'/about'} style={anchorTag}>About &rarr;</Link>
                 <Link className='routes' to={'/health-news'} style={anchorTag}>Health News &rarr;</Link>
             </div>
@@ -60,6 +61,7 @@ export default function Header(){
                 <div className='window-header-link'>
                     <Link className='routes' to={'/'} style={anchorTag}>Home</Link>
                     <Link className='routes' to={'/consultation'} style={anchorTag}>Schedule a Consultation</Link>
+                    <Link className='routes' to={'/products'} style={anchorTag}>Products</Link>
                     <Link className='routes' to={'/about'} style={anchorTag}>About</Link>
                     <Link className='routes' to={'/health-news'} style={anchorTag}>Health News</Link>
                 </div>

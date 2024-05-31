@@ -80,13 +80,13 @@
 
     .window-header{
         display: flex;
-        width: 90%;
+        width: 95%;
         justify-content: space-between;
         align-items: center;
     }
 
     .window-header-link{
-        width: 80%;
+        width: 85%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -107,7 +107,7 @@
 @media (min-width: 1050px){
 
     .window-header-link{
-        width: 70%;
+        width: 80%;
         display: flex;
         justify-content: space-between;
         align-items: center;
