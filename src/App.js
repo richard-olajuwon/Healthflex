@@ -5,7 +5,6 @@ import Homepage from './component/Homepage';
 import Schedule from './component/Schedule';
 import About from './component/About';
 import { ThemeContext } from './component/context';
-import News from './component/News';
 import Notfound from './component/Notfound';
 import PrivacyPolicy from './component/PrivacyPolicy';
 import TermsOfService from './component/TermsOfService';
@@ -40,7 +39,6 @@ function App() {
                             <Route exact path='/products' Component={ProductList} />
                             <Route exact path='/about' Component={About} />
                             <Route exact path='/about-us' Component={About} />
-                            <Route exact path='/health-news' Component={News} />
                             <Route exact path='/illness-list' Component={IllnessList} />
                             <Route exact path='/privacy-policy' Component={PrivacyPolicy} />
                             <Route exact path='/terms-of-service' Component={TermsOfService} />

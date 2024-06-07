@@ -118,7 +118,7 @@ export default function Homepage(){
                 </div>
             </section>
 
-            <section className='health-news-section'>
+            {/* <section className='health-news-section'>
                 <div className='health-news-section-inner'>
                     <img src='https://healthflex-files.s3.eu-north-1.amazonaws.com/health+news.jpg' alt='health news'/>
                     <h1>Health News</h1>
@@ -130,7 +130,7 @@ export default function Homepage(){
                     </h3>
                     <Link to='/health-news' style={anchorTag}>Learn More &gt;&gt;</Link>
                 </div>
-            </section>
+            </section> */}
             
             <Footer/>
         </div>

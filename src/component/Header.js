@@ -53,7 +53,6 @@ export default function Header(){
                 <Link className='routes' to={'/consultation'} style={anchorTag}>Schedule a Consultation &rarr;</Link>
                 <Link className='routes' to={'/products'} style={anchorTag}>Products &rarr;</Link>
                 <Link className='routes' to={'/about'} style={anchorTag}>About &rarr;</Link>
-                <Link className='routes' to={'/health-news'} style={anchorTag}>Health News &rarr;</Link>
             </div>
 
             <div className="window-header">
@@ -63,7 +62,6 @@ export default function Header(){
                     <Link className='routes' to={'/consultation'} style={anchorTag}>Schedule a Consultation</Link>
                     <Link className='routes' to={'/products'} style={anchorTag}>Products</Link>
                     <Link className='routes' to={'/about'} style={anchorTag}>About</Link>
-                    <Link className='routes' to={'/health-news'} style={anchorTag}>Health News</Link>
                 </div>
                 <button className='theme-toggler-container' onClick={() => {toggleTheme()}}><img className='theme-toggler' src={theme === 'dark' ? toggleLightMode : toggleDarkMode} alt=''/></button>
             </div>
